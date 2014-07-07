@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_mute_unmute"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_mute_unmute"/>
+    
+    <item
+        android:id="@+id/action_copyurl"
+        android:orderInCategory="101"
+        android:showAsAction="never"
+        android:title="@string/action_copyurl"/>
+
+</menu>
+<!-- From: file:/home/anselm/workspace/AndroidStudioProjects/android-avr/app/src/main/res/menu/app_capture_activity_menu_.xml -->

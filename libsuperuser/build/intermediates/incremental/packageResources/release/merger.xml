@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/home/anselm/workspace/AndroidStudioProjects/android-avr/libsuperuser/src/main/res" />
+        <source path="/home/anselm/workspace/AndroidStudioProjects/android-avr/libsuperuser/build/generated/res/rs/release" />
+        <source path="/home/anselm/workspace/AndroidStudioProjects/android-avr/libsuperuser/build/generated/res/generated/release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/home/anselm/workspace/AndroidStudioProjects/android-avr/libsuperuser/src/release/res" />
+    </dataSet>
+
+</merger>

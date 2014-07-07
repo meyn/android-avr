@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099bb"
+    android:gravity="center"
+    android:padding="3dip"
+    android:orientation="vertical"
+    tools:context=".AVRecorderInit" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+ 	    <Button
+	        android:id="@+id/uploadFiles_btn"
+	        android:layout_width="0px"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        style="@style/InitActivityButton"
+	        android:drawableLeft="@android:drawable/ic_menu_upload"
+	        android:contentDescription="@string/btn_uploadFiles"
+	        android:text="@string/btn_uploadFiles" />
+	    <Button
+	        android:id="@+id/browseFiles_btn"
+	        android:layout_width="0px"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        style="@style/InitActivityButton"
+	        android:drawableLeft="@drawable/icon_folder"
+	        android:text="@string/btn_browseFiles" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/fetch_playlist_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/InitActivityButton"
+        android:drawableLeft="@drawable/icon_playlist_light"
+        android:text="@string/btn_mng_lists" />
+   	<Button
+    	android:id="@+id/startPlaybackNow_btn"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	style="@style/InitActivityButton"
+    	android:drawableLeft="@android:drawable/ic_media_play"
+	    android:text="@string/btn_start" />
+   	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+	    <Button
+	        android:id="@+id/startTraining_btn"
+	        android:layout_width="0px"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        style="@style/InitActivityButton"
+	        android:text="@string/btn_startTraining" />
+	    <Button
+	        android:id="@+id/verifyTraining_btn"
+	        android:layout_width="0px"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        style="@style/InitActivityButton"
+	        android:text="@string/btn_verifyTraining" />
+    </LinearLayout>
+</LinearLayout>
+<!-- From: file:/home/anselm/workspace/AndroidStudioProjects/android-avr/app/src/main/res/layout-land/activity_app_init.xml -->

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory 
+        android:title="@string/pref_server_title"
+        android:key="pref_key_server_category">
+        <EditTextPreference
+            android:key="pref_key_server_url_value"
+            android:title="@string/pref_title_server_url"
+            android:summary="@string/pref_summary_server_url"
+            android:defaultValue="@string/pref_server_url_default" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_video_title"
+        android:key="pref_key_video_settings" >
+		<PreferenceScreen
+            android:key="pref_key_video_sim_screen"
+            android:title="@string/pref_title_video_sim_category"
+            android:summary="@string/pref_summary_video_sim_category"
+            android:persistent="false" >
+            <PreferenceCategory
+                android:key="pref_key_trained_site_category"
+                android:title="@string/pref_title_trained_site_data" >
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <CheckBoxPreference 
+            android:key="pref_key_immediate_upload"
+            android:title="@string/pref_title_when_upload_category"
+            android:summary="@string/pref_summary_when_upload_category"
+            android:defaultValue="true" />
+        <EditTextPreference 
+            android:key="pref_key_video_duration_value"
+            android:title="@string/pref_title_video_duration_value"
+            android:summary="@string/pref_summary_video_duration_value"
+            android:defaultValue="420" />
+<!--         <ListPreference
+        	android:key="pref_key_video_oriention_value"
+        	android:title="@string/pref_title_orientation_list"
+        	android:summary="@string/pref_summary_orientation_list"
+        	android:entries="@array/pref_orientation_entries"
+        	android:entryValues="@array/pref_orientation_values"
+        	android:defaultValue="@string/pref_orientation_default" /> -->
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_logging_title"
+        android:key="pref_key_logging_settings" >
+        <CheckBoxPreference 
+            android:key="pref_key_continue_without_tcpdump"
+            android:title="@string/pref_title_continue_without_tcpdump"
+            android:summary="@string/pref_summary_continue_without_tcpdump"
+            android:defaultValue="true" />
+        <EditTextPreference
+            android:key="pref_key_tcpdump_opt_s"
+            android:title="@string/pref_title_tcpdump_opt_s"
+            android:summary="@string/pref_summary_tcpdump_opt_s"
+            android:defaultValue="0" />
+    </PreferenceCategory>
+</PreferenceScreen>

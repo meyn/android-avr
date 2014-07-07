@@ -1,0 +1,26 @@
+<html lang="en">
+<head></head>
+<body bgcolor="#0099cc" text="#00bbff">
+<div align="center">
+  <h1>Aalto Video Crawler</h1>
+</div>
+<div id="fetch_list_btn" align="center">
+  <button onclick="showStartBtn(fetchVideoList());">Fetch List</button><br/>
+</div>
+<div id="start_test_btn" align="center" style="display:none;">
+  <button onclick="startTests();">Start Test</button>
+</div>
+<script>
+  function fetchVideoList() {
+    return [];
+  }
+  function showStartBtn(videoList) {
+    document.getElementById('start_test_btn').style.display="block";
+  }
+  function startTests() {
+    document.getElementById('start_test_btn').style.display="none";
+  }
+</script>
+<noscript>Javascript required!</noscript>
+</body>
+</html>

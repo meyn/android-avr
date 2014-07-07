@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/anselm/workspace/AndroidStudioProjects/android-avr/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string-array name="pref_orientation_entries">
+        <item>Portrait</item>
+        <item>Landscape</item>
+    </string-array>
+    <string-array name="pref_orientation_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="video_site_titles">
+        <item>yt,YouTube</item>
+        <item>mk,MTV Katsomo</item>
+        <item>yh,Yahoo Screen</item>
+        <!-- <item>vm,Vimeo</item> -->
+        <!-- <item>bl,Blip.tv</item> -->
+        <item>td,TED Talks</item>
+    </string-array>
+    <!-- From: file:/home/anselm/workspace/AndroidStudioProjects/android-avr/app/src/main/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/home/anselm/workspace/AndroidStudioProjects/android-avr/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="about_app">AVRecorder was created to help collect video streaming data for research purposes.</string>
+    <string name="action_about">About</string>
+    <string name="action_copyurl">Copy Video URL</string>
+    <string name="action_download">Download</string>
+    <string name="action_mute_unmute">Mute / Unmute</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">AVRecorder</string>
+    <string name="browse_playlists">Browse Playlists</string>
+    <string name="btn_browseFiles">View captures</string>
+    <string name="btn_mng_lists">Playlists</string>
+    <string name="btn_start">Play now</string>
+    <string name="btn_startTraining">Train AVRecorder</string>
+    <string name="btn_uploadFiles">Upload captures</string>
+    <string name="btn_verifyTraining">Test trained sites</string>
+    <string name="capture_beginning_msg">Starting video playback capture</string>
+    <string name="capture_in_progress_msg">Video playback capture in progress</string>
+    <string name="capture_msg_placeholder">Enter a capture message</string>
+    <string name="capture_postpone_button">Postpone</string>
+    <string name="capture_start_now_button">Start</string>
+    <string name="del_str">Delete</string>
+    <string name="no_str">No</string>
+    <string name="pref_key_trained_sim_sites">pref_key_trained_sim_sites</string>
+    <string name="pref_logging_title">tcpdump</string>
+    <string name="pref_orientation_default">2</string>
+    <string name="pref_server_title">Server</string>
+    <string name="pref_server_url_default">http://mvcrawl.cs.hut.fi</string>
+    <string name="pref_sim_data_touch_delay_default">170</string>
+    <string name="pref_summary_continue_without_tcpdump">Continue capturing data even if tcpdump fails to start (running tcpdump requires superuser permissions).</string>
+    <string name="pref_summary_del_curr_list_id">Deletes the current list of videos downloaded (not captured data if any)</string>
+    <string name="pref_summary_orientation_list">Set the device orientation videos should be viewed in</string>
+    <string name="pref_summary_server_url">URL of server to fetch the list of videos from</string>
+    <string name="pref_summary_tcpdump_opt_s">Bytes of data to snarf from each packet captured</string>
+    <string name="pref_summary_video_duration_value">Maximum Duration (in seconds) a video playback should last (not more than 15 minutes). Default is 7 minutes.</string>
+    <string name="pref_summary_video_sim_category">List of currently trained sites</string>
+    <string name="pref_summary_when_upload_category">Upload capture immediately after each video playback ends?</string>
+    <string name="pref_title_continue_without_tcpdump">Ignore failure</string>
+    <string name="pref_title_del_curr_list_id">Clear current video list</string>
+    <string name="pref_title_orientation_list">Orientation</string>
+    <string name="pref_title_server_url">Server URL</string>
+    <string name="pref_title_sim_data_touch_delay">Touch delay</string>
+    <string name="pref_title_tcpdump_opt_s">snaplen</string>
+    <string name="pref_title_trained_site_data">Delete simulation data</string>
+    <string name="pref_title_video_duration_value">Duration</string>
+    <string name="pref_title_video_sim_category">Simulation data</string>
+    <string name="pref_title_when_upload_category">Immediate upload</string>
+    <string name="pref_video_title">Playback</string>
+    <string name="prompt_training_msg">The sites in this video list require assitance before AVRecorder can play them (this is required once per site).\nStart training AVRecorder now?</string>
+    <string name="save_str">Save</string>
+    <string name="yes_str">Yes</string>
+    <!-- From: file:/home/anselm/workspace/AndroidStudioProjects/android-avr/app/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="InitActivityButton">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/custom_button</item>
+        <item name="android:layout_margin">4dp</item>
+    </style>
+
+    <style name="VideoListInfo">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:layout_margin">4dp</item>
+    </style>
+
+</resources>

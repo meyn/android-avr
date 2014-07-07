@@ -1,0 +1,19 @@
+apply plugin: 'android-library'
+
+android {
+    compileSdkVersion 4
+    buildToolsVersion "20.0.0"
+
+    defaultConfig {
+        applicationId "eu.chainfire.libsuperuser"
+        minSdkVersion 4
+        targetSdkVersion 15
+    }
+
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}

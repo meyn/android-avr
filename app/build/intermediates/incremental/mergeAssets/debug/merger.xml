@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="20.0.0" >
+        <source path="/home/anselm/workspace/AndroidStudioProjects/android-avr/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/assets" />
+    </dataSet>
+    <dataSet config="unspecified" >
+        <source path="/home/anselm/workspace/AndroidStudioProjects/android-avr/build/intermediates/exploded-aar/android-avr/libsuperuser/unspecified/assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/home/anselm/workspace/AndroidStudioProjects/android-avr/app/src/main/assets" >
+            <file
+                name="tcpdump"
+                path="/home/anselm/workspace/AndroidStudioProjects/android-avr/app/src/main/assets/tcpdump" />
+            <file
+                name="tcpdump.sh"
+                path="/home/anselm/workspace/AndroidStudioProjects/android-avr/app/src/main/assets/tcpdump.sh" />
+            <file
+                name="index.html"
+                path="/home/anselm/workspace/AndroidStudioProjects/android-avr/app/src/main/assets/index.html" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/anselm/workspace/AndroidStudioProjects/android-avr/app/src/debug/assets" />
+    </dataSet>
+
+</merger>

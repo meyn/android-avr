@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:padding="16dip"
+		android:width="48dp"
+        android:orientation="horizontal">
+	    <TextView
+		    android:id="@+id/captureMgrMsg"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="@string/capture_beginning_msg" />
+		<TextView
+		    android:id="@+id/captureCountdown"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="0"
+		    android:text="888"
+		    android:textColor="#ffff0000" />
+	</LinearLayout>
+	<LinearLayout
+	    android:id="@+id/captureDialogButtonSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+   		<View
+			android:layout_width="fill_parent"
+			android:layout_height="1dip"
+			android:background="?android:attr/dividerHorizontal" />
+   		<LinearLayout
+	        style="?android:attr/buttonBarStyle"
+   		    android:layout_width="match_parent"
+   		    android:layout_height="wrap_content"
+   		    android:orientation="horizontal">
+  	  		<Button
+		        android:id="@+id/autoPlayStartButton"
+		        style="?android:attr/buttonBarButtonStyle"
+		        android:layout_width="0px"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:text="@string/capture_start_now_button" />
+		    <Button
+		        android:id="@+id/autoPlayPostponeButton"
+		        style="?android:attr/buttonBarButtonStyle"
+		        android:layout_width="0px"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:text="@string/capture_postpone_button" />
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
+<!-- From: file:/home/anselm/workspace/AndroidStudioProjects/android-avr/app/src/main/res/layout/dialog_activity_recorder_controller.xml -->

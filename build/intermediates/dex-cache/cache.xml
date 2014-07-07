@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/home/anselm/workspace/AndroidStudioProjects/android-avr/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-d41b077088773ecfb597b7b9f70c55950dc3a200.jar"
+        jar="/home/anselm/workspace/AndroidStudioProjects/android-avr/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="/home/anselm/workspace/AndroidStudioProjects/android-avr/app/build/intermediates/pre-dexed/debug/classes-405ad598c6ca0cabc1b2b9596b407c4b107b659e.jar"
+        jar="/home/anselm/workspace/AndroidStudioProjects/android-avr/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+    <item
+        dex="/home/anselm/workspace/AndroidStudioProjects/android-avr/app/build/intermediates/pre-dexed/debug/commons-net-2.0-6563e0daf3fd30b3f8200c4770a758e8fd28fa8c.jar"
+        jar="/home/anselm/workspace/AndroidStudioProjects/android-avr/libs/commons-net-2.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="1f75887afe587df7c2435f2f6d3199f05a324c8d"/>
+    <item
+        dex="/home/anselm/workspace/AndroidStudioProjects/android-avr/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-718b5542f703177e252c0f4251827172c2eae852.jar"
+        jar="/opt/android/studio/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+    <item
+        dex="/home/anselm/workspace/AndroidStudioProjects/android-avr/app/build/intermediates/pre-dexed/debug/classes-28a4483aae374cbbf04bf1388af9fc742f429c3b.jar"
+        jar="/home/anselm/workspace/AndroidStudioProjects/android-avr/build/intermediates/exploded-aar/android-avr/libsuperuser/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="c9c34203a2810896fa1fab3aaa1c23b87660f809"/>
+
+</pre-dex-items>
